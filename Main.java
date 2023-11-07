@@ -27,8 +27,8 @@ class Food implements Serializable
                 break;
             case 4:price=quantity*30;
                 break;
+            case 5:price=quantity*20;
         }
-        System.out.print("This is your item");
     }
 }
 class Singleroom implements Serializable
