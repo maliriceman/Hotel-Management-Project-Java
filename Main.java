@@ -28,6 +28,7 @@ class Food implements Serializable
             case 4:price=quantity*30;
                 break;
         }
+        System.out.print("This is your item");
     }
 }
 class Singleroom implements Serializable
@@ -64,7 +65,7 @@ class Doubleroom extends Singleroom implements Serializable
     {
         this.name=name;
         this.contact=contact;
-        this.gender=gender;
+     )   this.gender=gender;
         this.name2=name2;
         this.contact2=contact2;
         this.gender2=gender2;
